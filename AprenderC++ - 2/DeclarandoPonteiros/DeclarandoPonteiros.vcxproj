@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1788529c-c0cf-492e-b541-88e5632f685b}</ProjectGuid>
-    <RootNamespace>CriandoFuncoes</RootNamespace>
+    <ProjectGuid>{8347e580-3d99-426a-815e-e28fa0f9f854}</ProjectGuid>
+    <RootNamespace>DeclarandoPonteiros</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CriandoFuncoes.cpp" />
-    <ClCompile Include="FuncoesMenu.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="FuncoesMenu.h" />
+    <ClCompile Include="DeclarandoPonteiros.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

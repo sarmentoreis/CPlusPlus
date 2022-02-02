@@ -15,16 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Calculadora.cpp">
+    <ClCompile Include="ArgumentosPadrao.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Matematica.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Matematica.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

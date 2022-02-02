@@ -8,12 +8,12 @@
   Protótipo de função serve para indicar para a função main que a função referente ao prot
   existe, mas o código dela está em um outro lugar.
 */
-float adicao(float num1, float num2);
+float Adicao(float num1, float num2);
 bool isPar(int num);
 
 int main()
 {
-	std::cout << adicao(50, 50) << '\n';
+	std::cout << Adicao(50, 50) << '\n';
 
 	if (isPar(77))
 	{
@@ -30,7 +30,7 @@ int main()
 
 
 
-float adicao(float num1, float num2)
+float Adicao(float num1, float num2)
 {
 	return (num1 + num2);
 }

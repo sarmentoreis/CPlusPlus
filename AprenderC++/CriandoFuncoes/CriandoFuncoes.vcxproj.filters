@@ -18,5 +18,13 @@
     <ClCompile Include="CriandoFuncoes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FuncoesMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FuncoesMenu.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
