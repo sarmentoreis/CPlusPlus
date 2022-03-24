@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4eca5f21-b1cf-4515-bdf2-b12aa1309daf}</ProjectGuid>
-    <RootNamespace>Exercicios</RootNamespace>
+    <ProjectGuid>{4e84da3e-a288-48b0-936c-31f30b02a4d6}</ProjectGuid>
+    <RootNamespace>Spider</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Exercicios1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,15 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Metodos.h" />
+    <ClInclude Include="Aranae.h" />
+    <ClInclude Include="Mesothelae.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Metodos.cpp">
-      <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdcpp20</LanguageStandard>
-    </ClCompile>
-    <ClCompile Include="Principal.cpp">
-      <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdcpp20</LanguageStandard>
-    </ClCompile>
+    <ClCompile Include="Aranae.cpp" />
+    <ClCompile Include="Mesothelae.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
